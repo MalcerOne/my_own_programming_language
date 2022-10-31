@@ -3,17 +3,17 @@ Programming Language created by my own, with my compiler made in the class of Lo
 
 
 # EBNF
-BLOCK = "{", { STATEMENT }, "}" ;
-STATEMENT = ( λ | ASSIGNMENT | WHILE | IF | PRINT ), ";" | BLOCK ;
-ASSIGNMENT = IDENTIFIER, "=", EXPRESSION, ";" ;
-WHILE = "squanch","(", RelEXPRESSION, ")"| BLOCK ;
-IF = "if","(", RelEXPRESSION, ")"| BLOCK ,  ( λ |  ( "else" |BLOCK));
-PRINT = "show_me_what_you_got", "(", RelEXPRESSION, ")";
-RelEXPRESSION = EXPRESSION, { ("==" | "mortyer_than" | "rickier_than"), EXPRESSION } ;
-EXPRESSION = TERM, { ("+" | "-" | "or"), TERM } ;
-TERM = FACTOR, { ("*" | "/" | "and"), FACTOR } ;
-FACTOR = (("+" | "-" | "not"), FACTOR) | NUMBER | "(", EXPRESSION, ")" | IDENTIFIER ;
-IDENTIFIER = "meeseeks", LETTER, { LETTER | DIGIT | "_" } ;
-NUMBER = DIGIT, { DIGIT } ;
-LETTER = ( a | ... | z | A | ... | Z ) ;
-DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) ;
+BLOCK = "{", { STATEMENT }, "}" ;<br />
+STATEMENT = ( λ | ASSIGNMENT | WHILE | IF | PRINT ), ";" | BLOCK ;<br />
+ASSIGNMENT = IDENTIFIER, "=", EXPRESSION, ";" ;<br />
+WHILE = "squanch","(", RelEXPRESSION, ")"| BLOCK ;<br />
+IF = "if","(", RelEXPRESSION, ")"| BLOCK ,  ( λ |  ( "else" |BLOCK));<br />
+PRINT = "show_me_what_you_got", "(", RelEXPRESSION, ")";<br />
+RelEXPRESSION = EXPRESSION, { ("==" | "mortyer_than" | "rickier_than"), EXPRESSION } ;<br />
+EXPRESSION = TERM, { ("+" | "-" | "or"), TERM } ;<br />
+TERM = FACTOR, { ("*" | "/" | "and"), FACTOR } ;<br />
+FACTOR = (("+" | "-" | "not"), FACTOR) | NUMBER | "(", EXPRESSION, ")" | IDENTIFIER ;<br />
+IDENTIFIER = "meeseeks", LETTER, { LETTER | DIGIT | "_" } ;<br />
+NUMBER = DIGIT, { DIGIT } ;<br />
+LETTER = ( a | ... | z | A | ... | Z ) ;<br />
+DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) ;<br />
