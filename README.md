@@ -1,5 +1,5 @@
 # PickleRick Programming Language
-Programming Language created by my own, with my compiler made in the class of Logica da Computação (Computer Logic), at Insper
+Programming Language created by my own, based in the TV series Rick and Morty. Compiler made with Python in the class of Logica da Computação (Computer Logic), at Insper
 
 
 # EBNF
