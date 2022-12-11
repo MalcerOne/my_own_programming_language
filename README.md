@@ -1,4 +1,5 @@
 # PickleRick Programming Language
+![Rick Image](https://github.com/MalcerOne/my_own_programming_language/blob/main/imgs/rickimage.png?raw=true)
 Programming Language created by my own, based in the TV series Rick and Morty. Compiler made with Python in the class of Logica da Computação (Computer Logic), at Insper
 
 
