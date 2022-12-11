@@ -30,5 +30,5 @@ STRING = '"', (LETTER | DIGIT), '"';
 DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) ;<br />
 
 # Credito
-Rafael Seicali Malcervelli 
+Rafael Seicali Malcervelli<br />
 7 semestre - Engenharia de Computacao - Insper
