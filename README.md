@@ -11,7 +11,7 @@ Se o output dessa execucao for igual ao ./outputs/output1.txt, esta tudo certo.
 
 # EBNF
 PROGRAM = (λ | DECLARATION);<br />
-DECLARATION = ("fn"), IDENTIFIER, "(", {IDENTIFIER, {","}, (":"), ("i32" | "String")}, ")", BLOCK;<br />
+DECLARATION = ("fn"), IDENTIFIER, "(", {IDENTIFIER, {","}, (":"), ("i32" | "String")}, ")", {("->"), ("i32" | "String")}, BLOCK;<br />
 BLOCK = "{", { STATEMENT }, "}" ;<br />
 STATEMENT = ({ASSIGNMENT | WHILE | IF | PRINT | VARDEC ), ";" | BLOCK ;<br />
 VARDEC = "meeseeks", IDENTIFIER, {",", IDENTIFIER}, ":", ("i32" | "String");<br />
