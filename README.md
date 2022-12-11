@@ -2,6 +2,12 @@
 ![Rick Image](https://github.com/MalcerOne/my_own_programming_language/blob/main/imgs/rickimage.png?raw=true)
 Programming Language created by my own, based in the TV series Rick and Morty. Compiler made with Python in the class of Logica da Computação (Computer Logic), at Insper
 
+# Testes
+Para realizar os testes, temos as pastas ./tests com os arquivos .txt utilizados para testar se a linguagem esta funcionando e o compilador esta conseguindo compilar tal codigo. Para isso:
+```terminal
+python3 main.py /tests/teste1.txt
+```
+Se o output dessa execucao for igual ao ./outputs/output1.txt, esta tudo certo.
 
 # EBNF
 PROGRAM = (λ | DECLARATION);<br />
