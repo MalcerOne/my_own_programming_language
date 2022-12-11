@@ -1,0 +1,9 @@
+fn Main()
+{
+
+  // Single var
+  meeseeks x_1: i32;
+  x_1 = 1;
+  show_me_what_you_got(x_1);
+
+}

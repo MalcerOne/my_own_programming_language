@@ -1,0 +1,17 @@
+fn Main()
+{
+  // All str operations 
+  meeseeks a, b : String;
+  meeseeks x_1, y, z : i32;
+  x_1 = 1; y = 1; z = 2;
+  a = "abc";
+  b = "def";
+  show_me_what_you_got(a.b);
+  show_me_what_you_got(a.x_1);
+  show_me_what_you_got(x_1.a);
+  show_me_what_you_got(y.z);
+  show_me_what_you_got(a.(x_1==1));
+  show_me_what_you_got(a == a);
+  show_me_what_you_got(a mortyer_than b);
+  show_me_what_you_got(a rickier_than b);
+}

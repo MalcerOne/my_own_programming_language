@@ -1,0 +1,29 @@
+fn soma(x: i32, y: i32) -> i32
+{
+    return x + y;
+}
+
+fn Main()
+{
+meeseeks x_1: i32;
+x_1 = 2;
+x_1 = soma(1, x_1);
+
+x_1 = Read();
+if ((x_1 rickier_than 1) && !(x_1 mortyer_than 1)) {
+    x_1 = 3;
+}
+else {
+    {
+    x_1 = (-20+30)*4*3/40;;;;; // teste de comentario
+    }
+}
+show_me_what_you_got(x_1);
+x_1 = Read();
+if ((x_1 rickier_than 1) && !(x_1 mortyer_than 1))
+    x_1 = 3;
+else
+    x_1 = (-20+30)*12/40;;;;;
+
+show_me_what_you_got(x_1);
+squanch ((x_1 rickier_than 1) || (x_1 == 1)) {x_1 = x_1 - 1;show_me_what_you_got(x_1);}}

@@ -1,0 +1,14 @@
+fn Main()
+{
+  // All bool and int operations
+  meeseeks y, z : i32;
+  y = 2;
+  z = (y == 2);
+  show_me_what_you_got(y+z);
+  show_me_what_you_got(y-z);
+  show_me_what_you_got(y*z);
+  show_me_what_you_got(y/z);
+  show_me_what_you_got(y == z);
+  show_me_what_you_got(y mortyer_than z);
+  show_me_what_you_got(y rickier_than z);
+}
