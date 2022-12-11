@@ -28,3 +28,7 @@ NUMBER = DIGIT, { DIGIT } ;<br />
 LETTER = ( a | ... | z | A | ... | Z ) ;<br />
 STRING = '"', (LETTER | DIGIT), '"';
 DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) ;<br />
+
+# Credito
+Rafael Seicali Malcervelli 
+7 semestre - Engenharia de Computacao - Insper
